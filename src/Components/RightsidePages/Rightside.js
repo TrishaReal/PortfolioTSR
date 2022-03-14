@@ -3,9 +3,9 @@ import "./style.css";
 import ColorItem from "./ColorItem";
 
 //ICONS
-import { BsFillMoonFill } from "react-icons/bs"; //MOON
-import { BsFillSunFill } from "react-icons/bs"; //SUN
-import { AiFillSetting } from "react-icons/ai"; //SETTING
+import NightlightRoundIcon from "@mui/icons-material/NightlightRound"; //MOON
+import LightModeIcon from "@mui/icons-material/LightMode"; //SUN
+import SettingsIcon from "@mui/icons-material/Settings"; //SETTINGS
 
 //COMPONENT PAGES
 import Sidebar from "../Sidebar/Sidebar";
@@ -38,7 +38,8 @@ function RightSide() {
     }
   };
 
-  const icon = theme === "light-mode" ? <BsFillMoonFill /> : <BsFillSunFill />;
+  const icon =
+    theme === "light-mode" ? <NightlightRoundIcon /> : <LightModeIcon />;
 
   useEffect(() => {
     document.documentElement.className = theme;
@@ -86,7 +87,7 @@ function RightSide() {
           <button className="iconMoonSun" onClick={cambiaTema}>
             {icon}
           </button>
-          <AiFillSetting className="settingIcon" onClick={showToggle} />
+          <SettingsIcon className="settingIcon" onClick={showToggle} />
           <h4>Temi Colori</h4>
           <div className="colorsTheme" onClick={showToggle}>
             {colors.map((color, idx) => (
