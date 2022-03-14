@@ -5,8 +5,8 @@ import { NavLink } from "react-router-dom";
 
 //ICONS
 import { AiFillBehanceCircle } from "react-icons/ai"; //BehanceIcon
-import { BsGithub } from "react-icons/bs"; //GithubIcon
-import { BsLinkedin } from "react-icons/bs"; //LinkedInIcon
+import { AiFillGithub } from "react-icons/ai"; //GithubIcon
+import { AiFillLinkedin } from "react-icons/ai"; //LinkedInIcon
 
 function Sidebar() {
   const [isOpen, setIsOpen] = useState();
@@ -59,13 +59,13 @@ function Sidebar() {
                 )
               }
             />
-            <BsGithub
+            <AiFillGithub
               className="single-icon"
               onClick={() =>
                 window.open("https://github.com/TrishaReal", "_blank")
               }
             />
-            <BsLinkedin
+            <AiFillLinkedin
               className="single-icon"
               onClick={() =>
                 window.open(

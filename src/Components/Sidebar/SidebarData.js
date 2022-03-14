@@ -1,33 +1,33 @@
-import { AiFillHome } from "react-icons/ai";
-import { BsFillPersonFill } from "react-icons/bs";
-import { MdBusinessCenter } from "react-icons/md";
-import { RiMessage3Fill } from "react-icons/ri";
+import HomeIcon from "@mui/icons-material/Home";
+import PersonIcon from "@mui/icons-material/Person";
+import BusinessCenterIcon from "@mui/icons-material/BusinessCenter";
+import ForumIcon from "@mui/icons-material/Forum";
 
 export const SidebarData = [
   {
     title: "Home",
-    icon: <AiFillHome />,
+    icon: <HomeIcon />,
     path: "/",
     cName: "nav-text",
   },
 
   {
     title: "Chi Sono",
-    icon: <BsFillPersonFill />,
+    icon: <PersonIcon />,
     path: "/chi_sono",
     cName: "nav-text",
   },
 
   {
     title: "Portfolio",
-    icon: <MdBusinessCenter />,
+    icon: <BusinessCenterIcon />,
     path: "/portfolio",
     cName: "nav-text",
   },
 
   {
     title: "Contatti",
-    icon: <RiMessage3Fill />,
+    icon: <ForumIcon />,
     path: "/contatti",
     cName: "nav-text",
   },

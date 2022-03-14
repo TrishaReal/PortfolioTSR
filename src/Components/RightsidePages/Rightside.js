@@ -15,7 +15,7 @@ import ChiSono from "../../Pages/ChiSono/ChiSono";
 import Contatti from "../../Pages/Contatti/Contatti";
 
 import React, { useState, useEffect } from "react";
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
 const getFromLocalStorage = () => {
   if (localStorage.getItem("theme")) {
