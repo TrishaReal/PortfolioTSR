@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/static/css/main.bc3ff92c.css",
+    "main.js": "/static/js/main.ef31af6a.js",
+    "static/js/787.128fc6e9.chunk.js": "/static/js/787.128fc6e9.chunk.js",
+    "static/media/parallaxWeb.png": "/static/media/parallaxWeb.16be30a33cc2ebaef1a5.png",
+    "static/media/lancome.jpg": "/static/media/lancome.d44194d372e8ec8477fd.jpg",
+    "static/media/kobe.jpg": "/static/media/kobe.7df519e1023d70225fc5.jpg",
+    "static/media/CV_TrishaSaireneReal.pdf": "/static/media/CV_TrishaSaireneReal.2dad0efca269c30132c4.pdf",
+    "static/media/red.jpg": "/static/media/red.8ba6632cf64d7c2f21d7.jpg",
+    "static/media/pickMe.png": "/static/media/pickMe.23d956b5cc30196fdf56.png",
+    "static/media/wikidrink.png": "/static/media/wikidrink.5be868c88c22c4518a31.png",
+    "static/media/gaga.jpg": "/static/media/gaga.90ecc3d4ee3ead44b5fc.jpg",
+    "static/media/iceCreamWeb.png": "/static/media/iceCreamWeb.b11ff03a04116baa8c79.png",
+    "static/media/vacationList.png": "/static/media/vacationList.9025d588d1cb03fc06fe.png",
+    "static/media/areila.jpg": "/static/media/areila.3e0b4dbcc45c37f8e812.jpg",
+    "static/media/kundera.jpg": "/static/media/kundera.5351e39c68219883d2cc.jpg",
+    "static/media/about_me_pic.jpeg": "/static/media/about_me_pic.ea7ec635bace15591967.jpeg",
+    "static/media/toDoList.png": "/static/media/toDoList.8d7c13b704dec5aeaaaa.png",
+    "static/media/whatsapp.png": "/static/media/whatsapp.0a501011f3cb251ca5f0.png",
+    "static/media/me.jfif": "/static/media/me.b60e76b37855753533c1.jfif",
+    "static/media/front_card.png": "/static/media/front_card.994d1f55ba5c5d152ece.png",
+    "static/media/back_card.png": "/static/media/back_card.da767474cc8ba5075bdf.png",
+    "static/media/colors.png": "/static/media/colors.45fd8d5205f519214a99.png",
+    "static/media/youtube.png": "/static/media/youtube.20eeea210153813fb60e.png",
+    "index.html": "/index.html",
+    "main.bc3ff92c.css.map": "/static/css/main.bc3ff92c.css.map",
+    "main.ef31af6a.js.map": "/static/js/main.ef31af6a.js.map",
+    "787.128fc6e9.chunk.js.map": "/static/js/787.128fc6e9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bc3ff92c.css",
+    "static/js/main.ef31af6a.js"
+  ]
+}
