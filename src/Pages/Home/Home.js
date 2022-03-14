@@ -24,7 +24,7 @@ function Home() {
             <div className="container-logo">
               <h3 className="hello">
                 Hey, mi chiamo
-                <Bounce top cascade delay={500} duration={1500}>
+                <Bounce top cascade delay={400} duration={1500}>
                   <span className="name">Trisha Sairene Real!</span>
                 </Bounce>
               </h3>

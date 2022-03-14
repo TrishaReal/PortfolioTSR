@@ -22,7 +22,7 @@ function GraphicProjects() {
 
   return (
     <div className="graphic">
-      <Flip top cascade delay={600} duration={2000}>
+      <Flip top cascade delay={500} duration={2000}>
         <div className="row-container">
           <div
             className="graphic-item"
