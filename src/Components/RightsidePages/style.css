@@ -1,0 +1,122 @@
+.dark-mode {
+  --bg-black-900: #151515;
+  --bg-black-100: #222222;
+  --bg-black-50: #393939;
+  --text-black-900: #ffffff;
+  --text-black-700: #e9e9e9;
+}
+
+.pages {
+  background: var(--bg-black-900);
+  min-height: 100vh;
+  display: block;
+  padding: 0;
+  opacity: 1;
+  position: fixed;
+  left: 270px;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 0;
+  overflow-y: auto;
+  overflow-x: hidden;
+  transition: all 0.3s ease;
+}
+
+.pages .style-switcher {
+  position: fixed;
+  right: 0;
+  top: 90px;
+  padding: 10px 15px;
+  width: 200px;
+  height: 88px;
+  border: 1px solid var(--bg-black-50);
+  background: var(--bg-black-100);
+  z-index: 90;
+  border-radius: 5px;
+  transition: all 0.7s ease;
+  transform: translateX(100%);
+}
+
+.pages .style-switcher.show {
+  transform: translateX(-25px);
+}
+
+.pages .style-switcher .iconMoonSun,
+.pages .style-switcher .settingIcon {
+  position: absolute;
+  height: 40px;
+  width: 40px;
+  background: var(--bg-black-100);
+  color: var(--text-black-900);
+  right: 100%;
+  border: 2px solid var(--bg-black-50);
+  margin-right: 25px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  border-radius: 50%;
+  padding: 6px;
+  transform: rotate(-20deg);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.pages .style-switcher .iconMoonSun {
+  top: 50px;
+}
+
+.pages .style-switcher .settingIcon {
+  top: 0px;
+  animation: lds-dual-ring 1.5s linear infinite;
+}
+
+@keyframes lds-dual-ring {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.pages .style-switcher h4 {
+  margin: 0 0 6px 5px;
+  color: var(--text-black-700);
+  font-size: 16px;
+  font-weight: 600;
+  text-transform: capitalize;
+}
+
+.pages .style-switcher .colorsTheme {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  cursor: pointer;
+}
+
+.color-item {
+  display: inline-block;
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  background-color: var(--skin-color);
+}
+
+.pages .style-switcher .color-item:hover {
+  border: 2px solid var(--text-black-900);
+}
+
+/* Medium */
+@media (max-width: 768px) {
+  .pages {
+    left: 0;
+  }
+}
+
+/* Large devices */
+@media (min-width: 769px) and (max-width: 1025px) {
+  .pages {
+    left: 200px;
+  }
+}

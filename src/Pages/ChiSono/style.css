@@ -1,0 +1,334 @@
+.chi_sono {
+  background: var(--bg-black-900);
+  height: 100vh;
+  color: var(--text-black-900);
+  max-width: 1100px;
+  width: 100%;
+  margin: auto;
+  padding: 60px 0 70px 0;
+}
+
+h2 {
+  font-size: 40px;
+  font-weight: 700;
+  position: relative;
+}
+
+h2::before {
+  content: "";
+  height: 4px;
+  width: 50px;
+  background-color: var(--skin-color);
+  position: absolute;
+  top: 100%;
+  left: 0;
+}
+
+h2::after {
+  content: "";
+  height: 4px;
+  width: 25px;
+  background-color: var(--skin-color);
+  position: absolute;
+  top: 100%;
+  left: 0;
+  margin-top: 8px;
+}
+
+.chi_sono .container h3 {
+  width: 100%;
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 15px;
+  margin-top: 60px;
+}
+
+.container h3 span {
+  color: var(--skin-color);
+}
+
+.container p {
+  font-size: 16px;
+  line-height: 25px;
+  color: var(--text-black-700);
+}
+
+.infos-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin: 50px 0;
+}
+
+.infos-container .leftContainer {
+  flex: 0 0 40%;
+  max-width: 100%;
+}
+
+.info-item p {
+  font-weight: 600;
+  font-size: 16px;
+  color: var(--text-black-900);
+  border-bottom: 1px solid var(--bg-black-50);
+  margin: 30px 0;
+}
+
+.info-item p span {
+  font-weight: 400;
+  color: var(--text-black-700);
+  margin-left: 10px;
+  display: inline-block;
+}
+
+.rightContainer {
+  flex: 0 0 50%;
+  max-width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.rightContainer .skills {
+  flex: 0 0 40%;
+  max-width: 100%;
+}
+
+.rightContainer .skill-items {
+  margin-bottom: 20px;
+}
+
+.rightContainer .skills .skill-items h5 {
+  line-height: 40px;
+  font-weight: 600;
+  font-size: 16px;
+  color: var(--text-black-900);
+  text-transform: capitalize;
+}
+
+.rightContainer .progress {
+  background-color: var(--bg-black-50);
+  height: 7px;
+  border-radius: 4px;
+  width: 100%;
+  position: relative;
+}
+
+.rightContainer .progress .skill-percent {
+  position: absolute;
+  right: 0;
+  color: var(--text-black-900);
+  top: -40px;
+  font-weight: 400;
+  line-height: 40px;
+}
+
+.rightContainer .progress .progress-in {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  border-radius: 4px;
+  background-color: var(--skin-color);
+  animation: progressBar 4s ease-in-out;
+  animation-fill-mode: both;
+}
+
+@keyframes progressBar {
+  0% {
+    width: 0;
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+.chi_sono .lavoriamoInsieme {
+  width: 230px;
+  font-size: 16px;
+  font-weight: 500;
+  padding: 12px;
+  display: flex;
+  justify-content: center;
+  color: white;
+  border-radius: 40px;
+  background: var(--skin-color);
+  transition: all 0.3s ease;
+}
+
+.chi_sono .lavoriamoInsieme:hover {
+  transform: scale(1.07);
+}
+
+.chi_sono .container_educ_esper {
+  margin-top: 120px;
+  padding-bottom: 60px;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.educ_esper {
+  width: 49%;
+}
+
+.container_educ_esper h3 {
+  font-size: 24px;
+  margin-bottom: 30px;
+  font-weight: 700;
+  color: var(--text-black-900);
+}
+
+.container_educ_esper .educ_esper .timeline-box {
+  background-color: var(--bg-black-100);
+  padding: 30px 15px;
+  border: 1px solid var(--bg-black-50);
+  border-radius: 10px;
+  width: 100%;
+  height: auto;
+  position: relative;
+  box-shadow: 0 0 20px rgba(48, 46, 77, 0.25);
+}
+
+.timeline-box .timeline-item {
+  position: relative;
+  padding-left: 37px;
+  padding-bottom: 50px;
+}
+
+.timeline-box .timeline-item:before {
+  content: "";
+  width: 1px;
+  position: absolute;
+  height: 100%;
+  left: 7px;
+  top: 6px;
+  background-color: var(--skin-color);
+}
+
+.timeline-box .timeline-item:last-child {
+  padding-bottom: 0;
+}
+
+.timeline-box .timeline-item .circle-dot {
+  position: absolute;
+  left: 0;
+  top: 6px;
+  height: 15px;
+  width: 15px;
+  border-radius: 50%;
+  background-color: var(--skin-color);
+}
+
+.timeline-box .timeline-item .timeline-date {
+  font-weight: 400;
+  font-size: 14px;
+  margin-bottom: 12px;
+  color: var(--text-black-700);
+  display: flex;
+  align-items: center;
+}
+
+.timeline-box .timeline-item .timeline-date .icons {
+  font-size: 18px;
+  margin: 5px;
+}
+
+.timeline-box .timeline-item .timeline-date span {
+  padding-top: 2px;
+}
+
+.timeline-box .timeline-item .timeline-title {
+  font-weight: 700;
+  font-size: 18px;
+  margin-bottom: 15px;
+  text-transform: capitalize;
+  color: var(--text-black-900);
+}
+
+/* Extra Small devices*/
+@media (min-width: 320px) and (max-width: 480px) {
+  .chi_sono .container h3,
+  .infos-container {
+    display: flex;
+    flex-direction: column;
+  }
+  .infos-container .rightContainer {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 30px;
+  }
+}
+
+/* Small devices */
+@media (min-width: 480px) and (max-width: 768px) {
+  .infos-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .infos-container .rightContainer {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 30px;
+  }
+}
+
+/* Large devices */
+@media (min-width: 769px) and (max-width: 992px) {
+  .infos-container .rightContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    height: 100%;
+  }
+
+  .infos-container .rightContainer .skills {
+    width: 70%;
+  }
+
+  .infos-container .rightContainer .skills .skill-items {
+    margin-bottom: 5px;
+  }
+}
+
+@media (max-width: 992px) {
+  .chi_sono .container_educ_esper {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .chi_sono .container_educ_esper .educ_esper {
+    width: 100%;
+    margin-bottom: 70px;
+  }
+}
+
+/* Extra Large devices */
+@media (max-width: 1200px) {
+  .chi_sono {
+    padding: 70px 40px;
+  }
+
+  .infos-container {
+    display: flex;
+    align-items: flex-start;
+  }
+
+  .infos-container .leftContainer .info-item p {
+    display: flex;
+    flex-direction: column;
+    margin: 0 0 20px 0;
+  }
+
+  .infos-container .leftContainer .info-item p span {
+    margin: 0;
+  }
+}
+
+@media (min-width: 1200px) {
+  .chi_sono {
+    padding: 70px 50px;
+  }
+}

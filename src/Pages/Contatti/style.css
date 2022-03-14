@@ -1,0 +1,209 @@
+.contatti {
+  background: var(--bg-black-900);
+  height: 100vh;
+  color: var(--text-black-900);
+  max-width: 1100px;
+  width: 100%;
+  margin: auto;
+  padding: 60px 0 70px 0;
+}
+
+h2 {
+  font-size: 40px;
+  font-weight: 700;
+  position: relative;
+}
+
+h2::before {
+  content: "";
+  height: 4px;
+  width: 50px;
+  background-color: var(--skin-color);
+  position: absolute;
+  top: 100%;
+  left: 0;
+}
+
+h2::after {
+  content: "";
+  height: 4px;
+  width: 25px;
+  background-color: var(--skin-color);
+  position: absolute;
+  top: 100%;
+  left: 0;
+  margin-top: 8px;
+}
+
+.contatti .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.contatti .container h4 {
+  color: var(--skin-color);
+  font-size: 24px;
+  font-weight: 700;
+  margin: 30px 0 10px 0;
+}
+
+.contatti .container h5.contactH5 {
+  font-size: 16px;
+}
+
+.contatti .container .cit {
+  font-weight: 600;
+  font-size: 1;
+}
+
+.contatti .container .row_contatti {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin: 80px 0;
+}
+
+.contatti .container .row_contatti li {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  width: 33.33%;
+}
+
+.contatti .container .row_contatti li div {
+  display: flex;
+  justify-content: center;
+}
+
+.contatti .container .row_contatti li #icon {
+  font-size: 25px;
+  color: var(--skin-color);
+}
+
+.contatti .container .row_contatti li #title {
+  font-size: 18px;
+  font-weight: 700;
+  color: var(--text-black-900);
+  text-transform: capitalize;
+  margin: 15px 0 5px;
+}
+
+.contatti .container .row_contatti li div.links,
+.contatti .container .row_contatti li div.links a {
+  font-size: 15px;
+  color: var(--text-black-900);
+}
+
+.row_contatti li div.links:hover,
+.row_contatti li div.links a:hover {
+  cursor: pointer !important;
+  color: var(--skin-color) !important;
+}
+
+.contatti .container .BusinessCard {
+  margin: 80px 0;
+}
+
+.BusinessCard .frontCard,
+.BusinessCard .backCard {
+  width: 400px;
+  box-shadow: 0 0 10px var(--text-black-700);
+  margin: 10px 30px;
+  transition: all ease-in-out 0.5s;
+}
+
+.BusinessCard .frontCard:hover,
+.BusinessCard .backCard:hover {
+  transform: scale(1.2);
+  cursor: pointer;
+}
+
+@media (min-width: 320px) {
+  .contatti .container {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .row_contatti li {
+    width: 100%;
+  }
+}
+
+@media (max-width: 375px) {
+  .contatti .container .BusinessCard .frontCard,
+  .contatti .container .BusinessCard .backCard {
+    width: 200px;
+    margin: 20px 0;
+  }
+}
+
+@media (max-width: 576px) {
+  .contatti {
+    padding: 70px 40px;
+  }
+
+  .row_contatti {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .row_contatti {
+    margin-bottom: 30px;
+  }
+
+  .row_contatti li {
+    margin-bottom: 30px;
+  }
+
+  .contatti .container .BusinessCard {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .BusinessCard .frontCard,
+  .BusinessCard .backCard {
+    width: 300px;
+    margin: 30px 0;
+  }
+}
+
+@media (min-width: 577px) and (max-width: 1200px) {
+  .contatti {
+    padding: 70px 50px;
+  }
+
+  .row_contatti {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .row_contatti {
+    margin-bottom: 30px;
+  }
+
+  .row_contatti li {
+    margin-bottom: 30px;
+  }
+
+  .contatti .container .BusinessCard {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .BusinessCard .frontCard,
+  .BusinessCard .backCard {
+    width: 300px;
+    margin: 0 30px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .contatti {
+    padding: 70px 50px;
+  }
+}

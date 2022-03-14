@@ -1,0 +1,218 @@
+.home {
+  background: var(--bg-black-900);
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  color: var(--text-black-900);
+}
+
+.home .logo {
+  display: none;
+}
+
+.home .logo h1 {
+  color: var(--bg-black-900);
+}
+
+.home .title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 120px;
+}
+
+.home .title h3.hello {
+  font-size: 28px;
+  margin: 15px 0;
+  color: var(--text-black-900);
+  font-weight: 700;
+}
+
+.home .title h3.hello span {
+  font-family: Comforter;
+  font-size: 50px;
+  font-weight: 700;
+  color: var(--skin-color);
+}
+
+.home .title h3.my-profession {
+  font-size: 30px;
+  margin: 15px 0;
+  font-weight: 700;
+}
+
+.typing {
+  color: var(--skin-color);
+}
+
+.description {
+  margin-bottom: 70px;
+  font-size: 20px;
+}
+
+.image {
+  display: flex;
+  align-items: center;
+  margin-right: 150px;
+}
+
+.image img {
+  height: 400px;
+  border: 8px solid var(--skin-color);
+  border-radius: 20px;
+  transform: rotate(4deg);
+  box-shadow: 10px 15px 20px rgba(48, 46, 77, 0.25);
+  transition: all ease-in 0.5s;
+}
+
+.image .image02 {
+  position: absolute;
+  opacity: 0;
+}
+
+.image:hover img {
+  opacity: 0;
+}
+
+.image:hover img.image02 {
+  opacity: 1;
+}
+
+.image img:hover {
+  transform: rotate(0deg);
+  transition: all 0.5s ease;
+}
+
+.title a {
+  width: 180px;
+  font-size: 16px;
+  font-weight: 500;
+  padding: 12px;
+  display: flex;
+  justify-content: center;
+  color: white;
+  border-radius: 40px;
+  background: var(--skin-color);
+  transition: all 0.3s ease;
+}
+
+.title a:hover {
+  transform: scale(1.07);
+}
+
+/* Extra Small devices*/
+@media (min-width: 320px) and (max-width: 480px) {
+  .home .title h3.hello,
+  .home .title h3.my-profession {
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .home .title h3.hello span {
+    font-size: 35px;
+  }
+
+  .home .title p {
+    font-size: 17px;
+    margin-bottom: 36px;
+  }
+  .home .title a {
+    width: 150px;
+    font-size: 11px;
+    font-weight: 500;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    color: white;
+    border-radius: 40px;
+    background: var(--skin-color);
+    transition: all 0.3s ease;
+  }
+
+  .home .title .container-logo .logo {
+    display: none;
+  }
+}
+
+/* Small devices */
+@media (max-width: 576px) {
+  .home .title {
+    padding: 0 45px;
+  }
+
+  .home .title h3.hello,
+  .home .title h3.my-profession {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .home .image {
+    display: none;
+  }
+}
+
+/* Medium */
+@media (min-width: 576px) and (max-width: 768px) {
+  .home .title .container-logo .logo {
+    display: block;
+  }
+}
+
+/* Large devices */
+@media (min-width: 576px) and (max-width: 992px) {
+  .home {
+    padding: 0;
+  }
+
+  .home .title {
+    padding: 0 40px;
+  }
+
+  .home .image {
+    display: none;
+  }
+
+  .home .title .container-logo {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .home .title .container-logo .hello {
+    flex: 0 0 70%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+/* Extra Large devices */
+@media (min-width: 992px) and (max-width: 1200px) {
+  .home .title {
+    padding: 0 60px;
+  }
+
+  .home .title h3.hello,
+  .home .title h3.my-profession {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .home .image {
+    margin-right: 70px;
+  }
+
+  .home .image img {
+    height: 300px;
+  }
+}
+
+@media (min-width: 1400px) and (max-width: 1600px) {
+  .home .title h3.hello,
+  .home .title h3.my-profession {
+    display: flex;
+    flex-direction: column;
+  }
+}

@@ -1,7 +1,7 @@
-import AiFillHome from "react-icons/ai";
-import BsFillPersonFill from "react-icons/bi";
-import MdBusinessCenter from "react-icons/md";
-import RiMessage3Fill from "react-icons/ri";
+import { AiFillHome } from "react-icons/ai";
+import { BsFillPersonFill } from "react-icons/bs";
+import { MdBusinessCenter } from "react-icons/md";
+import { RiMessage3Fill } from "react-icons/ri";
 
 export const SidebarData = [
   {
