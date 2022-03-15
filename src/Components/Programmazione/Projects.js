@@ -35,7 +35,9 @@ function Projects() {
             <div className="sviluppo-item-inner">
               <img src={parallaxWeb} alt="" />
               <div className="overlay">
-                <p>Parallax Website con HTML e CSS</p>
+                <p>Parallax Website</p>
+                <p className="colored">HTML e CSS</p>
+                <p className="responsive">(Non Responsive)</p>
                 <div className="icons-container">
                   <AiFillGithub
                     className="icon"
@@ -56,7 +58,9 @@ function Projects() {
                 </div>
               </div>
               <div className="didascalia">
-                <p>Parallax Website con HTML e CSS</p>
+                <p>Parallax Website</p>
+                <p className="colored">HTML e CSS</p>
+                <p className="responsive">(Non Responsive)</p>
                 <div className="icons-container">
                   <AiFillGithub
                     className="icon"
@@ -83,7 +87,9 @@ function Projects() {
             <div className="sviluppo-item-inner">
               <img src={toDoList} alt="" />
               <div className="overlay">
-                <p>To Do List con HTML, CSS E JS</p>
+                <p>To Do List</p>
+                <p className="colored">HTML, CSS E JS</p>
+                <p className="responsive">(Responsive)</p>
                 <div className="icons-container">
                   <AiFillGithub
                     className="icon"
@@ -102,7 +108,9 @@ function Projects() {
                 </div>
               </div>
               <div className="didascalia">
-                <p>To Do List con HTML, CSS E JS</p>
+                <p>To Do List</p>
+                <p className="colored">HTML, CSS E JS</p>
+                <p className="responsive">(Responsive)</p>
                 <div className="icons-container">
                   <AiFillGithub
                     className="icon"
@@ -127,7 +135,9 @@ function Projects() {
             <div className="sviluppo-item-inner">
               <img src={ytImage} alt="" />
               <div className="overlay">
-                <p>Youtube Web con HTML e CSS</p>
+                <p>Youtube Web</p>
+                <p className="colored">HTML e CSS</p>
+                <p className="responsive">(Non Responsive)</p>
                 <div className="icons-container">
                   <AiFillGithub
                     className="icon"
@@ -146,7 +156,9 @@ function Projects() {
                 </div>
               </div>
               <div className="didascalia">
-                <p>Youtube Web con HTML e CSS</p>
+                <p>Youtube Web</p>
+                <p className="colored">HTML e CSS</p>
+                <p className="responsive">(Non Responsive)</p>
                 <div className="icons-container">
                   <AiFillGithub
                     className="icon"
@@ -171,7 +183,9 @@ function Projects() {
             <div className="sviluppo-item-inner">
               <img src={whatsappImage} alt="" />
               <div className="overlay">
-                <p>Whatsapp: HTML, CSS e JAVASCPRIT</p>
+                <p>Whatsapp Web</p>
+                <p className="colored"> HTML, CSS e JS</p>
+                <p className="responsive">(Non Responsive)</p>
                 <div className="icons-container">
                   <AiFillGithub
                     className="icon"
@@ -190,7 +204,9 @@ function Projects() {
                 </div>
               </div>
               <div className="didascalia">
-                <p>Whatsapp: HTML, CSS e JAVASCPRIT</p>
+                <p>Whatsapp Web</p>
+                <p className="colored"> HTML, CSS e JS</p>
+                <p className="responsive">(Non Responsive)</p>
                 <div className="icons-container">
                   <AiFillGithub
                     className="icon"
@@ -215,7 +231,9 @@ function Projects() {
             <div className="sviluppo-item-inner">
               <img src={vacation} alt="" />
               <div className="overlay">
-                <p>Slider Pacchetti Vacanze con React.js</p>
+                <p>Slider Pacchetti Vacanze</p>
+                <p className="colored"> REACT.JS</p>
+                <p className="responsive">(Responsive)</p>
                 <div className="icons-container">
                   <AiFillGithub
                     className="icon"
@@ -232,7 +250,9 @@ function Projects() {
                 </div>
               </div>
               <div className="didascalia">
-                <p>Slider Pacchetti Vacanze con React.js</p>
+                <p>Slider Pacchetti Vacanze</p>
+                <p className="colored">REACT.JS</p>
+                <p className="responsive">(Responsive)</p>
                 <div className="icons-container">
                   <AiFillGithub
                     className="icon"
@@ -255,7 +275,9 @@ function Projects() {
             <div className="sviluppo-item-inner">
               <img src={colors} alt="" />
               <div className="overlay">
-                <p>Color-Grading con React.js</p>
+                <p>Color-Grading</p>
+                <p className="colored">REACT.JS</p>
+                <p className="responsive">(Responsive)</p>
                 <div className="icons-container">
                   <AiFillGithub
                     className="icon"
@@ -274,7 +296,9 @@ function Projects() {
                 </div>
               </div>
               <div className="didascalia">
-                <p>Color-Grading con React.js</p>
+                <p>Color-Grading</p>
+                <p className="colored">REACT.JS</p>
+                <p className="responsive">(Responsive)</p>
                 <div className="icons-container">
                   <AiFillGithub
                     className="icon"
@@ -299,7 +323,9 @@ function Projects() {
             <div className="sviluppo-item-inner">
               <img src={iceCreamWeb} alt="" />
               <div className="overlay">
-                <p>Menu di Gelati divise per categorie con React.js</p>
+                <p>Menu di Gelati divise per categorie</p>
+                <p className="colored">REACT.JS</p>
+                <p className="responsive">(Responsive)</p>
                 <div className="icons-container">
                   <AiFillGithub
                     className="icon"
@@ -318,7 +344,9 @@ function Projects() {
                 </div>
               </div>
               <div className="didascalia">
-                <p>Menu di Gelati divise per categorie con React.js</p>
+                <p>Menu di Gelati divise per categorie</p>
+                <p className="colored">REACT.JS</p>
+                <p className="responsive">(Responsive)</p>
                 <div className="icons-container">
                   <AiFillGithub
                     className="icon"
@@ -343,7 +371,9 @@ function Projects() {
             <div className="sviluppo-item-inner">
               <img src={wkImage} alt="" />
               <div className="overlay">
-                <p>Il mio primo sito creato con React.js</p>
+                <p>Il mio primo sito intero</p>
+                <p className="colored">REACT.JS</p>
+                <p className="responsive">(Responsive)</p>
                 <div className="icons-container">
                   <AiFillGithub
                     className="icon"
@@ -362,7 +392,9 @@ function Projects() {
                 </div>
               </div>
               <div className="didascalia">
-                <p>Il mio primo sito creato con React.js</p>
+                <p>Il mio primo sito intero</p>
+                <p className="colored">REACT.JS</p>
+                <p className="responsive">(Responsive)</p>
                 <div className="icons-container">
                   <AiFillGithub
                     className="icon"
@@ -387,7 +419,9 @@ function Projects() {
             <div className="sviluppo-item-inner">
               <img src={pickMe} alt="" />
               <div className="overlay">
-                <p>Pick-Me Website con React.js e Redux</p>
+                <p>Pick-Me Website</p>
+                <p className="colored">REACT.JS e REDUX TOOLKIT</p>
+                <p className="responsive">(Responsive)</p>
                 <div className="icons-container">
                   <AiFillGithub
                     className="icon"
@@ -398,7 +432,9 @@ function Projects() {
                 </div>
               </div>
               <div className="didascalia">
-                <p>Pick-Me Website con React.js e Redux</p>
+                <p>Pick-Me Website</p>
+                <p className="colored">REACT.JS e REDUX TOOLKIT</p>
+                <p className="responsive">(Responsive)</p>
                 <div className="icons-container">
                   <AiFillGithub
                     className="icon"
