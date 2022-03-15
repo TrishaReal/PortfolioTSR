@@ -34,7 +34,7 @@ function ChiSono() {
           </div>
 
           <div className="infos-container">
-            <div class="leftContainer">
+            <div className="leftContainer">
               <Zoom cascade delay={600}>
                 <div className="info-item">
                   <p>
@@ -65,28 +65,28 @@ function ChiSono() {
               <div className="skills">
                 <div className="skill-items">
                   <h5>HTML/CSS</h5>
-                  <div class="progress">
+                  <div className="progress">
                     <div className="progress-in" style={{ width: "90%" }}></div>
                     <div className="skill-percent">90%</div>
                   </div>
                 </div>
                 <div className="skill-items">
                   <h5>BOOTSTRAP</h5>
-                  <div class="progress">
+                  <div className="progress">
                     <div className="progress-in" style={{ width: "70%" }}></div>
                     <div className="skill-percent">70%</div>
                   </div>
                 </div>
                 <div className="skill-items">
                   <h5>JAVASCRIPT</h5>
-                  <div class="progress">
+                  <div className="progress">
                     <div className="progress-in" style={{ width: "75%" }}></div>
                     <div className="skill-percent">75%</div>
                   </div>
                 </div>
                 <div className="skill-items">
                   <h5>JQUERY</h5>
-                  <div class="progress">
+                  <div className="progress">
                     <div className="progress-in" style={{ width: "75%" }}></div>
                     <div className="skill-percent">75%</div>
                   </div>
@@ -96,28 +96,28 @@ function ChiSono() {
               <div className="skills">
                 <div className="skill-items">
                   <h5>REACT.JS</h5>
-                  <div class="progress">
+                  <div className="progress">
                     <div className="progress-in" style={{ width: "65%" }}></div>
                     <div className="skill-percent">65%</div>
                   </div>
                 </div>
                 <div className="skill-items">
                   <h5>PHOTOSHOP</h5>
-                  <div class="progress">
+                  <div className="progress">
                     <div className="progress-in" style={{ width: "80%" }}></div>
                     <div className="skill-percent">80%</div>
                   </div>
                 </div>
                 <div className="skill-items">
                   <h5>ILLUSTRATOR</h5>
-                  <div class="progress">
+                  <div className="progress">
                     <div className="progress-in" style={{ width: "70%" }}></div>
                     <div className="skill-percent">70%</div>
                   </div>
                 </div>
                 <div className="skill-items">
                   <h5>INDESIGN</h5>
-                  <div class="progress">
+                  <div className="progress">
                     <div className="progress-in" style={{ width: "70%" }}></div>
                     <div className="skill-percent">70%</div>
                   </div>
@@ -161,7 +161,7 @@ function ChiSono() {
                       <span>2020 - 2021</span>
                     </h3>
                     <h4 className="timeline-title">Programmazione Web</h4>
-                    <p className="timeline-text">
+                    <div className="timeline-text">
                       Studio autodidatto in cui mi sono focalizzata sui
                       linguaggi principali dello sviluppo Front-End quali:
                       <ul>
@@ -174,7 +174,7 @@ function ChiSono() {
                           JAVASCRIPT: <span>JQuery, Chiamate Ajax</span>
                         </li>
                       </ul>
-                    </p>
+                    </div>
                   </div>
 
                   <div className="timeline-item">

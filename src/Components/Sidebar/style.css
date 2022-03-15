@@ -58,7 +58,7 @@
   color: var(--skin-color);
 }
 
-.SidebarList .isActive {
+.SidebarList .nav-link.active {
   cursor: pointer;
   color: var(--skin-color);
 }
