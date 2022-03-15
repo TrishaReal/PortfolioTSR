@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.22f10fb4.css",
-    "main.js": "/static/js/main.378de364.js",
+    "main.css": "/static/css/main.8fce2c9e.css",
+    "main.js": "/static/js/main.e3ffb581.js",
     "static/js/787.128fc6e9.chunk.js": "/static/js/787.128fc6e9.chunk.js",
     "static/media/parallaxWeb.png": "/static/media/parallaxWeb.16be30a33cc2ebaef1a5.png",
     "static/media/lancome.jpg": "/static/media/lancome.d44194d372e8ec8477fd.jpg",
@@ -24,12 +24,12 @@
     "static/media/colors.png": "/static/media/colors.45fd8d5205f519214a99.png",
     "static/media/youtube.png": "/static/media/youtube.20eeea210153813fb60e.png",
     "index.html": "/index.html",
-    "main.22f10fb4.css.map": "/static/css/main.22f10fb4.css.map",
-    "main.378de364.js.map": "/static/js/main.378de364.js.map",
+    "main.8fce2c9e.css.map": "/static/css/main.8fce2c9e.css.map",
+    "main.e3ffb581.js.map": "/static/js/main.e3ffb581.js.map",
     "787.128fc6e9.chunk.js.map": "/static/js/787.128fc6e9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.22f10fb4.css",
-    "static/js/main.378de364.js"
+    "static/css/main.8fce2c9e.css",
+    "static/js/main.e3ffb581.js"
   ]
 }
