@@ -8,6 +8,7 @@ import { FaCalendarAlt } from "react-icons/fa"; //CALENDARIO
 import LightSpeed from "react-reveal/LightSpeed";
 import Zoom from "react-reveal/Zoom";
 import Slide from "react-reveal/Slide";
+import Fade from "react-reveal/Fade";
 
 import React from "react";
 import { Link } from "react-router-dom";
@@ -129,7 +130,7 @@ function ChiSono() {
             Lavoriamo Insieme!
           </Link>
 
-          <Slide bottom>
+          <Fade cascade>
             <div className="container_educ_esper">
               <div className="educ_esper">
                 <h3>Educazione</h3>
@@ -195,6 +196,7 @@ function ChiSono() {
                   </div>
                 </div>
               </div>
+
               <div className="educ_esper">
                 <h3>Esperienze Lavorative</h3>
                 <div className="timeline-box">
@@ -254,7 +256,7 @@ function ChiSono() {
                 </div>
               </div>
             </div>
-          </Slide>
+          </Fade>
         </div>
       </Slide>
     </>
