@@ -6,7 +6,7 @@ import { RowContatti } from "./RowContatti";
 
 //FILES AND IMAGES
 import frontCard from "../../Images/Portfolio/front_card.png";
-import backCard from "../../Images/Portfolio/back_card.png";
+import backCard from "../../Images/Portfolio/back_card.jpg";
 
 //TRANSITIONS AND ANIMATIONS
 import Fade from "react-reveal/Fade";
