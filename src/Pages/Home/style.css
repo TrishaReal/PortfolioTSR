@@ -1,9 +1,11 @@
 .home {
   background: var(--bg-black-900);
   width: 100%;
-  height: 100vh;
+  height: 100%;
   display: flex;
+  align-items: center;
   color: var(--text-black-900);
+  padding: 50px 60px;
 }
 
 .home .logo {
@@ -18,7 +20,6 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding: 0 110px;
 }
 
 .home .title h3.hello {
@@ -41,19 +42,20 @@
   font-weight: 700;
 }
 
-.typing {
+.home .title .typing {
   color: var(--skin-color);
 }
 
 .description {
-  margin-bottom: 70px;
+  margin-bottom: 50px;
   font-size: 20px;
+  padding-right: 30px;
 }
 
-.image {
+.home .image {
   display: flex;
   align-items: center;
-  margin-right: 150px;
+  margin: 0 30px;
 }
 
 .image img {
@@ -102,6 +104,10 @@
 
 /* Extra Small devices*/
 @media (min-width: 320px) and (max-width: 480px) {
+  .home {
+    padding: 0;
+  }
+
   .home .title h3.hello,
   .home .title h3.my-profession {
     font-size: 20px;
@@ -137,10 +143,6 @@
 
 /* Small devices */
 @media (max-width: 576px) {
-  .home .title {
-    padding: 0 45px;
-  }
-
   .home .title h3.hello,
   .home .title h3.my-profession {
     display: flex;
@@ -190,18 +192,10 @@
 
 /* Extra Large devices */
 @media (min-width: 992px) and (max-width: 1200px) {
-  .home .title {
-    padding: 0 60px;
-  }
-
   .home .title h3.hello,
   .home .title h3.my-profession {
     display: flex;
     flex-direction: column;
-  }
-
-  .home .image {
-    margin-right: 70px;
   }
 
   .home .image img {
