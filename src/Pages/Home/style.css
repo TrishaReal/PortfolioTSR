@@ -105,6 +105,10 @@
 /* Extra Small devices*/
 @media (min-width: 320px) and (max-width: 480px) {
   .home {
+    padding: 0 50px;
+  }
+
+  .home .description {
     padding: 0;
   }
 
