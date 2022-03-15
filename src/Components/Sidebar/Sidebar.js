@@ -10,15 +10,10 @@ import { AiFillLinkedin } from "react-icons/ai"; //LinkedInIcon
 
 function Sidebar() {
   const [isOpen, setIsOpen] = useState();
-  const [isActive, setIsActive] = useState();
 
   //Function to open and close the sidebar on tablet or mobile size.
   const openSidebar = () => {
     setIsOpen(!isOpen);
-  };
-
-  const activeLink = () => {
-    setIsActive(!isActive);
   };
 
   return (
@@ -45,7 +40,6 @@ function Sidebar() {
                     // className={(isActive) =>
                     //   "nav-link" + (!isActive ? " unselected" : "")
                     // }
-                    // className={`nav-link ${isActive ? "active" : ""}`}
                     activeClassName="active-link"
                   >
                     {item.icon} <span>{item.title}</span>
