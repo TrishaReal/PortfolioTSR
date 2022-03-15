@@ -5,7 +5,7 @@
   max-width: 1100px;
   width: 100%;
   margin: auto;
-  padding: 60px 0 70px 0;
+  padding: 70px 50px;
 }
 
 h2 {
@@ -202,8 +202,8 @@ h2::after {
   }
 }
 
-@media (min-width: 1200px) {
+/* @media (min-width: 1200px) {
   .contatti {
     padding: 70px 50px;
   }
-}
+} */
