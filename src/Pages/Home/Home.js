@@ -54,7 +54,7 @@ function Home() {
             </h3>
 
             <p className="description">
-              Una ragazza intraprendente con grande volontà di fare nuove
+              Una persona intraprendente con grande volontà di fare nuove
               esperienze. Socievole, riflessiva, sempre pronta ad ogni sfida e
               ama imparare. Esprime le proprie emozioni attraverso la creatività
               accompagnata anche dalla passione per l'arte, l'informatica e la
