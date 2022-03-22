@@ -154,6 +154,24 @@ h2::after {
   transition: all 0.3s ease;
 }
 
+.chi_sono .download {
+  width: 90%;
+  height: auto;
+  text-align: center;
+  font-size: 13px;
+  font-weight: 500;
+  padding: 8px;
+  margin: 13px 0 0 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  border-radius: 40px;
+  background: var(--skin-color);
+  transition: all 0.3s ease;
+}
+
+.chi_sono .download:hover,
 .chi_sono .lavoriamoInsieme:hover {
   transform: scale(1.07);
 }

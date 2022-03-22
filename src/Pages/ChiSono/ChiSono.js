@@ -12,6 +12,7 @@ import Fade from "react-reveal/Fade";
 
 import React from "react";
 import { Link } from "react-router-dom";
+import UdemyCertificate from "../../Images/Portfolio/UdemyCertificate.pdf";
 
 function ChiSono() {
   return (
@@ -152,6 +153,9 @@ function ChiSono() {
                       ad utilizzare Redux; conoscere le Principali librerie
                       usate nell'ecosistema React; creare Hook Personalizzati
                     </p>
+                    <a download href={UdemyCertificate} className="download">
+                      Download Certificato di Completamento UDEMY
+                    </a>
                   </div>
 
                   <div className="timeline-item" id="programmazione">
@@ -193,6 +197,9 @@ function ChiSono() {
                       noti del mercato come per esempio Adobe Photoshop, Adobe
                       Illustrator, Adobe InDesign ecc.
                     </p>
+                    <a download href={UdemyCertificate} className="download">
+                      Download Attestato di Partecipazione
+                    </a>
                   </div>
                 </div>
               </div>
