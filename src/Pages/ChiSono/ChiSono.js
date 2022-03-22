@@ -13,6 +13,7 @@ import Fade from "react-reveal/Fade";
 import React from "react";
 import { Link } from "react-router-dom";
 import UdemyCertificate from "../../Images/Portfolio/UdemyCertificate.pdf";
+import ArtAcademy_Certificate from "../../Images/Portfolio/ArtAcademy_Certificate.pdf";
 
 function ChiSono() {
   return (
@@ -197,7 +198,11 @@ function ChiSono() {
                       noti del mercato come per esempio Adobe Photoshop, Adobe
                       Illustrator, Adobe InDesign ecc.
                     </p>
-                    <a download href={UdemyCertificate} className="download">
+                    <a
+                      download
+                      href={ArtAcademy_Certificate}
+                      className="download"
+                    >
                       Download Attestato di Partecipazione
                     </a>
                   </div>
