@@ -4,7 +4,7 @@ import "./style.css";
 //FILES AND IMAGES
 import me from "../../Images/me.jfif";
 import about_me_pic from "../../Images/about_me_pic.jpeg";
-import Curriculum from "../../Images/Portfolio/CV_TrishaSaireneReal.pdf";
+import Curriculum from "../../Images/Portfolio/TrishaSaireneReal_CV";
 
 //TRANSITIONS AND ANIMATIONS
 import { Typewriter } from "react-simple-typewriter";
