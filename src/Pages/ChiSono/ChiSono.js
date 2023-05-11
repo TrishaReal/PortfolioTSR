@@ -209,9 +209,38 @@ function ChiSono() {
                 </div>
               </div>
 
-              <div className="educ_esper">
+              <div className="educ_esper ">
                 <h3>Esperienze Lavorative</h3>
-                <div className="timeline-box">
+                <div className="timeline-box lavoro">
+                  <div className="timeline-item">
+                    <div className="circle-dot"></div>
+                    <h3 className="timeline-date">
+                      <FaCalendarAlt className="icons" />{" "}
+                      <span>Marzo 2023 - Attuale</span>
+                    </h3>
+                    <h4 className="timeline-title">
+                      Front-End / React Developer
+                    </h4>
+                    <p className="timeline-text">
+                      Softfobia (An Indra Company) a Cagliari in Sardegna.
+                    </p>
+                  </div>
+
+                  <div className="timeline-item">
+                    <div className="circle-dot"></div>
+                    <h3 className="timeline-date">
+                      <FaCalendarAlt className="icons" />{" "}
+                      <span>Ottobre 2022 - Marzo 2023</span>
+                    </h3>
+                    <h4 className="timeline-title">
+                      Front-End / React Developer
+                    </h4>
+                    <p className="timeline-text">
+                      Tirocinio presso l'azienda informatica Softfobia (An Indra
+                      Company) a Cagliari in Sardegna.
+                    </p>
+                  </div>
+
                   <div className="timeline-item">
                     <div className="circle-dot"></div>
                     <h3 className="timeline-date">

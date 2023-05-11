@@ -3,6 +3,7 @@ import "./style.css";
 
 //COMPONENTS
 import { RowContatti } from "./RowContatti";
+import toast, { Toaster } from "react-hot-toast";
 
 //FILES AND IMAGES
 import frontCard from "../../Images/Portfolio/front_card.png";
@@ -12,7 +13,7 @@ import backCard from "../../Images/Portfolio/back_card.jpg";
 import Fade from "react-reveal/Fade";
 import Slide from "react-reveal/Slide";
 
-import React from "react";
+import React, { useState, useEffect } from "react";
 
 function Contatti() {
   return (

@@ -203,3 +203,12 @@ h2::after {
     padding: 70px 50px;
   }
 } */
+
+.lavoro {
+  max-height: 960px;
+  overflow-y: auto;
+}
+
+.lavoro::-webkit-scrollbar {
+  height: 40px;
+}
